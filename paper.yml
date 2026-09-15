@@ -65,12 +65,11 @@ world-settings:
       disable-extreme-hills-emeralds: false
       disable-extreme-hills-monster-eggs: false
       disable-mesa-additional-gold: false
-    prevent-moving-into-unloaded-chunks: false
-    use-vanilla-world-scoreboard-name-coloring: false
     portal-search-radius: 128
     queue-light-updates: false
     optimize-explosions: false
     use-chunk-inhabited-timer: true
+    use-vanilla-world-scoreboard-name-coloring: false
     delay-chunk-unloads-by: 10s
     max-auto-save-chunks-per-tick: 24
     save-queue-limit-for-auto-save: 50
@@ -87,6 +86,7 @@ world-settings:
       disable-chest-cat-detection: false
       disable-unloaded-chunk-enderpearl-exploit: true
       village-sieges-enabled: true
+    prevent-moving-into-unloaded-chunks: false
     max-growth-height:
       cactus: 3
       reeds: 3
@@ -123,7 +123,6 @@ world-settings:
     duplicate-uuid-saferegen-delete-range: 32
     keep-spawn-loaded-range: 6
     auto-save-interval: -1
-    fire-physics-event-for-redstone: false
     nether-ceiling-void-damage: false
     allow-non-player-entities-on-scoreboards: false
     container-update-tick-rate: 1
@@ -171,6 +170,7 @@ world-settings:
     disable-thunder: false
     skeleton-horse-thunder-spawn-chance: 0.01
     disable-ice-and-snow: false
+    fire-physics-event-for-redstone: false
     spawner-nerfed-mobs-should-jump: false
     baby-zombie-movement-speed: 0.5
     allow-leashing-undead-horse: false
